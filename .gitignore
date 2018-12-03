@@ -1,0 +1,9 @@
+/lib/*
+/ClassLibrary1/*
+/DotNet.Utilities/*
+/packages/*
+/Tzj.Infrastructure.DataNhibernate/*
+/Tzj.Infrastructure.FrameworkCore/*
+/Tzj.Infrastructure.ProjectConfig/*
+/Tzj.Infrastructure.ToolKit/*
+/.vs/*

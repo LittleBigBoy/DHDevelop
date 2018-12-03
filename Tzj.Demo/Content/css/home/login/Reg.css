@@ -1,0 +1,130 @@
+﻿.inputcommon {
+    width: 215px;
+    height: 40px;
+    background-color: transparent;
+    font-family: '微软雅黑';
+    font-weight: 400;
+    font-style: normal;
+    font-size: 18px;
+    text-decoration: none;
+    color: #FFFFFF;
+    text-align: left;
+    border-color: transparent;
+    outline-style: none;
+}
+
+.regcontent {
+    width: 300px;
+    height: 50px;
+    margin-top: 200px;
+    margin-left: 25px;
+}
+
+    .regcontent .item {
+        margin: 15px auto;
+        height: 50px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-image: url("../../../images/home/login/board_u1267_selected.png")
+    }
+
+        .regcontent .item label {
+            margin-left: 5px;
+            color: #fff;
+            font-size: 18px;
+            width: 100px;
+        }
+.regu2265_div {
+    border-width: 0px;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 300px;
+    height: 50px;
+    background: inherit;
+    background-color: rgba(255, 255, 255, 1);
+    border: none;
+    border-radius: 3px;
+    -moz-box-shadow: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    font-family: '微软雅黑';
+    font-weight: 400;
+    font-style: normal;
+    font-size: 18px;
+    color: #1F98B7;
+}
+
+.regu2265 {
+    border-width: 0px;
+    position: absolute;
+    left: 25px;
+    top: 405px;
+    width: 300px;
+    height: 50px;
+    font-family: '微软雅黑';
+    font-weight: 400;
+    font-style: normal;
+    font-size: 18px;
+    color: #1F98B7;
+}
+
+.regu2265_div.mouseOver {
+    border-width: 0px;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 300px;
+    height: 50px;
+    background: inherit;
+    background-color: rgba(255, 255, 255, 1);
+    border: none;
+    border-radius: 3px;
+    -moz-box-shadow: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    font-family: '微软雅黑';
+    font-weight: 400;
+    font-style: normal;
+    font-size: 18px;
+    color: #1F98B7;
+}
+
+.regu2265.mouseOver {
+    opacity: 0.9;
+}
+
+.regu2265_div.mouseDown {
+    border-width: 0px;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 300px;
+    height: 50px;
+    background: inherit;
+    background-color: rgba(255, 255, 255, 1);
+    border: none;
+    border-radius: 3px;
+    -moz-box-shadow: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    font-family: '微软雅黑';
+    font-weight: 400;
+    font-style: normal;
+    font-size: 18px;
+    color: #1F98B7;
+}
+
+.regu2265.mouseDown {
+    opacity: 1;
+}
+
+.regu2265_text {
+    border-width: 0px;
+    position: absolute;
+    left: 2px;
+    top: 13px;
+    width: 296px;
+    word-wrap: break-word;
+}

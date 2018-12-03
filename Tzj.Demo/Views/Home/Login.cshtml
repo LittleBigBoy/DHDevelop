@@ -1,0 +1,151 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>登录-正海科技</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=1366, maximum-scale=1.0">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <link href="~/Content/css/home/styles.css" type="text/css" rel="stylesheet">
+    <link href="~/Content/css/home/login/styles.css" type="text/css" rel="stylesheet">
+    <link href="~/Content/css/font/font.css" rel="stylesheet" />
+    <script src="~/Content/js/home/jquery-1.7.1.min.js"></script>
+    <script src="~/Content/js/home/jquery-ui-1.8.10.custom.min.js"></script>
+    <script src="~/Content/layui/lay/modules/layer.js"></script>
+    <script src="~/Content/js/home/prototypePre.js"></script>
+    <script src="~/Content/js/home/document.js"></script>
+    <script src="~/Content/js/home/prototypePost.js"></script>
+    <script type="text/javascript" src="~/Content/js/home/data.js"></script>
+    <script src="~/Content/js/BasePage.js"></script>
+    <script src="~/Content/js/home/Login.js"></script>
+    <script src="~/Content/js/global.js"></script>
+</head>
+<body>
+    <div id="base" class="">
+
+        <!-- 登录面板 (动态面板) -->
+        <div id="u1264" class="ax_default" data-label="登录面板" style="z-index: 1001; left: 0px; margin-left: 0px; width: 100% !important; ">
+            <div id="u1264_state0" class="panel_state" data-label="State1" style="width: 100% !important;">
+                <div id="u1264_state0_content" class="panel_state_content" style="left: 50%; margin-left: -175px;">
+
+                    <!-- 登录按纽 (矩形) -->
+
+                    <div id="u1265" class="ax_default logindefault" data-label="登录按纽" selectiongroup="按纽组-9" style="cursor: pointer;" onclick="Login.submit()">
+                        <div id="u1265_div" class="" tabindex="0"></div>
+                        <div id="u1265_text" class="text ">
+                            <p style="margin:0;"><span>登录</span></p>
+                        </div>
+                    </div>
+
+                    <!-- 输入框 (组 合) -->
+                    <div id="u1266" class="ax_default" data-label="输入框" data-left="1595" data-top="273" data-width="300" data-height="50">
+
+                        <!-- 边框 (矩形) -->
+                        <div id="u1267" class="ax_default logindefault" data-label="边框">
+                            <img id="u1267_img" class="img" src="~/Content/images/home/login/board_u1267.png">
+                            <div id="u1267_text" class="text " style="top: 15px; transform-origin: 148px 10px 0px;">
+                                <p id="cache0" style=""><span id="cache1" style=""></span></p>
+                            </div>
+                        </div>
+
+                        <!-- 密码 (文本框) -->
+                        <div id="u1268" class="ax_default logindefault" data-label="密码">
+                            <input id="u1268_input" type="password" value="" maxlength="20" tabindex="0" style="font-size: 14px; font-weight: normal; color: rgb(255, 255, 255);">
+                        </div>
+
+                        <!-- 清除 (矩形) -->
+                        <div id="u1269" class="ax_default logindefault ax_default_hidden" data-label="清除" style="display: none; visibility: hidden; cursor: pointer;">
+                            <div id="u1269_div" class="" tabindex="0"></div>
+                            <div id="u1269_text" class="text ">
+                                <p><span class="iconfont">&#xe646;</span></p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- 输入框 (组 合) -->
+                    <div id="u1270" class="ax_default" data-label="输入框" data-left="1595" data-top="203" data-width="300" data-height="50">
+
+                        <!-- 边框 (矩形) -->
+                        <div id="u1271" class="ax_default logindefault" data-label="边框">
+                            <img id="u1271_img" class="img" src="~/Content/images/home/login/board_u1267.png">
+                        </div>
+
+                        <!-- 用户名 (文本框) -->
+                        <div id="u1272" class="ax_default logindefault" data-label="用户名">
+                            <input id="u1272_input" type="text" value="" maxlength="20" tabindex="0" style="font-size: 14px; font-weight: normal; color: rgb(255, 255, 255);">
+                        </div>
+
+                        <!-- 清除 (矩形) -->
+                        <div id="u1273" class="ax_default logindefault ax_default_hidden" data-label="清除" style="display: none; visibility: hidden; cursor: pointer;">
+                            <div id="u1273_div" class="" tabindex="0"></div>
+                            <div id="u1273_text" class="text ">
+                                <p><span class="iconfont">&#xe646;</span></p>
+                            </div>
+                        </div>
+                    </div>
+
+
+                   
+
+
+
+                    <!-- Unnamed (形状) -->
+                    <div id="u1274" class="ax_default logindefault">
+                        <img id="u1274_img" class="img " src="~/Content/images/home/login/u1274.png">
+                    </div>
+
+                    <!-- Unnamed (形状) -->
+                    <div id="u1275" class="ax_default logindefault">
+                        <img id="u1275_img" class="img " src="~/Content/images/home/login/u1275.png">
+                    </div>
+
+                    <!-- 警告提示 (动态面板) -->
+                    <!-- Unnamed (矩形) -->
+                    <div id="u1280" class="ax_default logindefault">
+                        <img id="u1280_img" class="img " src="~/Content/images/home/login/u1280.png">
+                        <div id="u1280_text" class="text ">
+                            <p><span>正海科技</span></p>
+                        </div>
+                    </div>
+
+                    <!-- Unnamed (组 合) -->
+                    <div id="u1281" class="ax_default" data-left="130" data-top="10" data-width="90" data-height="99">
+
+                        <!-- Unnamed (形状) -->
+                        <div id="u1282" class="ax_default logindefault">
+                            <img id="u1282_img" class="img " src="~/Content/images/home/login/u1282.png">
+                        </div>
+
+                        <!-- Unnamed (形状) -->
+                        <div id="u1283" class="ax_default logindefault">
+                            <img id="u1283_img" class="img " src="~/Content/images/home/login/u1283.png">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- 底部版权 (动态面板) -->
+        <div id="u1284" class="ax_default" data-label="底部版权" style="z-index: 1002;">
+            <div id="u1284_state0" class="panel_state" data-label="State1" style="">
+                <div id="u1284_state0_content" class="panel_state_content">
+
+                    <!-- Unnamed (底部版权) -->
+                    <!-- Unnamed (矩形) -->
+                    <div id="u1286" class="ax_default logindefault">
+                        <img id="u1286_img" class="img " src="~/Content/images/home/login/u1286.png">
+                        <div id="u1286_text" class="text ">
+                            <p><span style="color:#CCCCCC;">Copyright © </span><span style="color:#CCCCCC;">正海科技</span><span style="color:#CCCCCC;">, All Rights Reserved.</span></p><p><span style="color:#CCCCCC;">Email : </span><a id="u1288" class="link" title="点击发送邮件"><span style="color:#0000FF;"></span></a><span style="color:#CCCCCC;">&nbsp; QQ: </span></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
